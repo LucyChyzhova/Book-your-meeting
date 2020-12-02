@@ -1,0 +1,20 @@
+.found-person {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  align-items: baseline;
+}
+
+.found-person p{
+    margin-bottom: 0;
+}
+
+.found-person-delete {
+  margin-left: 10px;
+  color: #3e99c0;
+  font-size: 18px;
+}
+
+.found-person-container a {
+  text-decoration: none;
+}
