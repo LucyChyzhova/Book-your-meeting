@@ -1,8 +1,8 @@
-.meeting-details-title {
+.date-range-title {
   color: #3e99c0;
 }
 
-.meeting-details-date-container {
+.date-range-date-container {
   border-radius: 8px;
   border: 1px solid #dfe1e5;
   width: 265px;
@@ -15,7 +15,7 @@
   background-color: white;
 }
 
-.meeting-details-date {
+.date-range-date {
   border: none;
   border-radius: 8px;
   width: 115px;
@@ -44,21 +44,21 @@
   border: 1px solid #3e99c0;
 }
 
-.meeting-details-date {
+.date-range-date {
   width: 110px;
 }
 
-.meeting-details-date.-focused {
+.date-range-date.-focused {
   border-color: none;
 }
 
-.meeting-details-date-container:hover {
+.date-range-container:hover {
   background-color: white;
   box-shadow: rgba(32, 33, 36, 0.28) 0px 1px 6px 0px;
   color: #212121;
 }
 
-.meeting-details-date-line {
+.date-range-date-line {
   margin-right: 10px;
   margin-left: 10px;
   font-size: 26px;
@@ -72,12 +72,8 @@
   width: 35%;
 }
 
-.meeting-details-show:hover {
-  box-shadow: rgba(109, 124, 167, 0.8) 0px 0px 7px 0px;
-}
-
 @media only screen and (min-device-width: 300px) and (max-device-width: 480px) {
-  .meeting-details-container {
+  .date-range-container {
     width: 90%;
     margin-top: 20px;
     margin-bottom: 10px;

@@ -21,7 +21,7 @@ export default function DateRange({ onStartDateChange, onEndDateChange }) {
 
   return (
     <>
-      <label className="meeting-details-title">Dates' range</label>
+      <label className="date-range-title">Dates' range</label>
       <DateRangePicker
         startDate={startDate}
         endDate={endDate}
@@ -33,21 +33,21 @@ export default function DateRange({ onStartDateChange, onEndDateChange }) {
         locale={enGB}
       >
         {({ startDateInputProps, endDateInputProps, focus }) => (
-          <div className="meeting-details-date-container">
+          <div className="date-range-date-container">
             <input
               className={
-                "meeting-details-date input" +
+                "date-range-date input" +
                 (focus === START_DATE ? " -focused" : "")
               }
               {...startDateInputProps}
               placeholder=" Start date"
             />
-            <span className="meeting-details-date-line">
+            <span className="date-range-date-line">
               <AiOutlineLine />
             </span>
             <input
               className={
-                "meeting-details-date input" +
+                "date-range-date input" +
                 (focus === END_DATE ? " -focused" : "")
               }
               {...endDateInputProps}
