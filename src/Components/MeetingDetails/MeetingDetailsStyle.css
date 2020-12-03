@@ -5,8 +5,8 @@
   margin-right: auto;
 }
 
-.meeting-details-title{
-color:  #3e99c0;
+.meeting-details-title {
+  color: #3e99c0;
 }
 
 .meeting-details-date-container,
@@ -39,28 +39,29 @@ color:  #3e99c0;
   padding-left: 5px;
 }
 
-.nice-dates-navigation, .nice-dates-day {
-    color: rgb(17, 17, 17);
-  }
+.nice-dates-navigation,
+.nice-dates-day {
+  color: rgb(17, 17, 17);
+}
 
-  .nice-dates-popover {
-    box-shadow: none;
-    border: 1px solid #ddd;
-    border-radius: 2px;
-    max-width: 480px;
-    transition: none;
-  }
+.nice-dates-popover {
+  box-shadow: none;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  max-width: 480px;
+  transition: none;
+}
 
-  .nice-dates-day:before {
-    background-color:  #3e99c0;
-  }
+.nice-dates-day:before {
+  background-color: #3e99c0;
+}
 
-  .nice-dates-day:after {
-    border: 1px solid #3e99c0;
-  }
+.nice-dates-day:after {
+  border: 1px solid #3e99c0;
+}
 
-.meeting-details-date{
-    width: 110px; 
+.meeting-details-date {
+  width: 110px;
 }
 
 .meeting-details-time-duration {
@@ -86,13 +87,13 @@ color:  #3e99c0;
   margin-right: 10px;
   margin-left: 10px;
   font-size: 26px;
-  color:  #3e99c0;
+  color: #3e99c0;
   background-color: white;
   transform: rotate(90deg);
   z-index: 0;
 }
 
-.nice-dates-popover{
+.nice-dates-popover {
   width: 35%;
 }
 
@@ -104,12 +105,12 @@ color:  #3e99c0;
   border-radius: 24px;
   border: none;
   margin-right: 0;
-  margin-left:auto;
-  display:block;
+  margin-left: auto;
+  display: block;
 }
 
-.meeting-details-show:hover{
-    box-shadow: rgba(109, 124, 167, 0.8) 0px 0px 7px 0px;
+.meeting-details-show:hover {
+  box-shadow: rgba(109, 124, 167, 0.8) 0px 0px 7px 0px;
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 480px) {
