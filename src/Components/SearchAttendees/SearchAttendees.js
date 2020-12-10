@@ -59,10 +59,10 @@ export default function SearchAttendees({ onFoundPersonsChange }) {
   return (
     <div className="search-container">
       <ReactSearchAutocomplete
-        placeholder={'Employee\'s name'}
+        placeholder ={'Employee\'s name'} 
         useCaching={false}
         showIcon={false}        
-        maxResults={50}
+        maxResults={8}
         inputDebounce={parseInt(0)}
         items={searchingPersons}
         onSearch={handleOnSearch}
