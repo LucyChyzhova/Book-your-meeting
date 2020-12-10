@@ -5,3 +5,8 @@
 h3 {
   color: rgb(48, 48, 48);
 }
+
+input::placeholder {
+  color: rgb(190, 190, 190);
+}
+
